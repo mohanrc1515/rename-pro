@@ -22,7 +22,7 @@ async def start(client,message):
 ☞ Maintained By : @ChVivekTomar
 	""",reply_to_message_id = message.message_id ,  
 	reply_markup=InlineKeyboardMarkup(
-	 [[ InlineKeyboardButton("Official Channel" ,url="https://t.me/OfficialVivekTomar") ]  ]))
+	 [[ InlineKeyboardButton("Vivek Projects" ,url="https://t.me/OfficialVivekProject") ]  ]))
 
 
 @Client.on_message(filters.private &( filters.document | filters.audio | filters.video ))
