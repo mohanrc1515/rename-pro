@@ -21,7 +21,7 @@
             "value": ""
         },
         "ADMIN": {
-            "description":"1128255143"
+            "description":"Add Your User ID"
         },
         "DB_URL": {
             "description": "Your Mongo DB URL Obtained From mongodb.com",
