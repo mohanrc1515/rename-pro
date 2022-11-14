@@ -21,10 +21,10 @@ async def start(client,message):
 
 ☞ Maintained By : @annoying_boy
 
-**☞ Want To Buy Owr Premium Rename Bot With Custom Caption Support Contact Me On @RipperNo1**
+**☞ Want To Buy Owr Premium Rename Bot With Custom Caption Support Contact Me On @annoying_boy**
 	""",reply_to_message_id = message.message_id ,  
 	reply_markup=InlineKeyboardMarkup(
-	 [[ InlineKeyboardButton("Buy Premium" ,url="https://t.me/annoying_boy") ]  ]))
+	 [[ InlineKeyboardButton("Vivek Projects" ,url="https://t.me/annoying_boy") ]  ]))
 
 
 @Client.on_message(filters.private &( filters.document | filters.audio | filters.video ))
